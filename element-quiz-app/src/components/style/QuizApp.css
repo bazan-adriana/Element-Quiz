@@ -1,0 +1,88 @@
+/* QuizApp.css */
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: dodgerblue;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: red;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+label {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: maroon;
+}
+
+input[type="checkbox"] {
+    margin: 1rem;
+    transform: scale(1.5);
+}
+
+input[type="checkbox"]:checked+label {
+    font-weight: bold;
+}
+
+.quiz-app-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-app-container p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.quiz-app-container a {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-align: center;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.quiz-app-container a:hover {
+    color: #4CAF50;
+    border-bottom: 1px solid #4CAF50;
+}

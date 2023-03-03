@@ -1,0 +1,71 @@
+const elements = [
+  {
+    name: 'Hydrogen',
+    symbol: 'H',
+    properties: 'Colorless, odorless, nonmetallic, highly flammable',
+    // reactivity: 'Reacts explosively with oxygen and fluorine',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Helium',
+    symbol: 'He',
+    properties: 'Colorless, odorless, nonmetallic, low reactivity',
+    reactivity: 'Unreactive',
+  },
+  {
+    name: 'Lithium',
+    symbol: 'Li',
+    properties: 'Soft, silvery-white, highly reactive',
+    // reactivity: 'Reacts violently with water, oxidizing agents, and acids',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Beryllium',
+    symbol: 'Be',
+    properties: 'Hard, brittle, silvery-white, low density',
+    // reactivity: 'Forms a protective oxide layer, reacts with strong acids',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Boron',
+    symbol: 'B',
+    properties: 'Black, crystalline solid, low density, high melting point',
+    // reactivity: 'Reacts with some metals and nonmetals, forms boron nitride at high temperatures',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Carbon',
+    symbol: 'C',
+    properties: 'Solid, black (graphite) or clear (diamond), nonmetallic',
+    // reactivity: 'Reacts with oxygen at high temperatures, forms many compounds',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Nitrogen',
+    symbol: 'N',
+    properties: 'Colorless, odorless, diatomic gas, nonmetallic',
+    // reactivity: 'Reacts with some metals at high temperatures, forms many compounds',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Oxygen',
+    symbol: 'O',
+    properties: 'Colorless, odorless, diatomic gas, nonmetallic',
+    // reactivity: 'Reacts with many elements, supports combustion',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Fluorine',
+    symbol: 'F',
+    properties: 'Pale yellow, diatomic gas, highly reactive',
+    // reactivity: 'Reacts with most elements, forms many compounds',
+    reactivity: 'Reactive',
+  },
+  {
+    name: 'Neon',
+    symbol: 'Ne',
+    properties: 'Colorless, odorless, nonmetallic, low reactivity',
+    reactivity: 'Unreactive',
+  },
+];
+export default elements;

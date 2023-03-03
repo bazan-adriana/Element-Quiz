@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-rows .cell {
+    margin-top: 1rem;
+    background-color: lightgreen;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto 4rem;
+}
+
+.cell {
+    width: 4rem;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    background-color: rgb(235, 182, 84);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:active {
+    color: red;
+}
+
+.transitional {
+    background-color: lightblue;
+}
+
+.alkali {
+    background-color: pink;
+}
