@@ -19,6 +19,9 @@ function App() {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/elements/:atomicNumber" element={<DetailsPage />} />
       </Routes>
+      <div style={{ marginTop: "2rem", textAlign: "center" }}>
+                CREATED BY ADRIANA BAZAN
+            </div>
     </div>
   );
 }
